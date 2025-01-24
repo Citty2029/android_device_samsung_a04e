@@ -18,3 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 $(call inherit-product, device/samsung/mt6768-jdm/mt6768.mk)
+
+# Overlays
+PRODUCT_PACKAGES += \
+    SystemUIOverlay_JDM_G85
