@@ -14,8 +14,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from a05m device
 $(call inherit-product, device/samsung/a05m/device.mk)
 
-# Inherit from wingcamera-samsung
-$(call inherit-product, vendor/samsung/wing-camera/wingcamera-samsung.mk)
+# Inherit from hq-camera-samsung
+$(call inherit-product, vendor/samsung/hq-camera/hqcamera-samsung.mk)
 
 TARGET_EXCLUDES_AUDIOFX := true
 
